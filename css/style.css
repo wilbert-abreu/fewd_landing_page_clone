@@ -1,3 +1,20 @@
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 0px 15px;
+    height:70px;
+}
+
+
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
