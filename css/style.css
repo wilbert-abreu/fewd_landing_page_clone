@@ -58,22 +58,24 @@ background-image:url("../images/Karma-hero.jpg");
 background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 28rem;
     overflow: auto;
 }
 
-.content h1{
+.introduction h1{
+  margin-top: 5.3rem;
+	
  margin-bottom: 0.3em;
 font-size:3em;
 }
 
-.content h3{
+.introduction h3{
 margin-top: 0.1em;
 font-size:1.4em;
     letter-spacing: -0.02em;
 }
 
-.content h1, .content h3{
+.introduction h1, .introduction h3{
  text-align:center;
 color:white;
      font-family: 'Roboto', sans-serif; 
@@ -94,6 +96,42 @@ color:white;
     margin-top:3e;  
 }
 
+.cases {
+    background-color:#fff;
+    overflow:hidden;
+    padding-bottom: 5rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.cases .content {
+    margin-top:7.875rem;
+    color:#1d1e21;
+    text-align:center;
+}
+
+.cases h2{
+    font-size: 2.75rem;
+    margin:1.625rem 0 3.125rem;
+    font-weight:300;
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+	float:left;
+    /* styles to assist with debugging 
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;*/
+}
+
+.cases .caption {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+  color:#1d1e21;
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -116,6 +154,45 @@ body {
   margin: 0;
 }
 
+.icons ul{
+	list-style:none;
+}
+
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+.social .icons > li {
+	border-radius: 1.28rem;
+  width: 2.5rem;
+  height: rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #4c66a4;
+}
+
+.social .instagram {
+  color: #3f729b;
+}
+
+.social .copyright {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
 /* HTML5 display definitions
    ========================================================================== */
 
